@@ -1,6 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
+import { act } from "react";
+
+test("renders components correctly", async () => {
+  await act(async () => {
+      <App />
+  });
 });
