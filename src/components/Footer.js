@@ -8,7 +8,7 @@ const Footer = () => {
                 <footer className="text-center text-white" style={{backgroundColor: "#0a4275"}}>
 
                     <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-                        © 2024 Copyright&nbsp;
+                        © 2024 HoaiNam&nbsp;
                         <NavLink className="text-light text-decoration-none" to="/">
                             FakeShop
                         </NavLink>
